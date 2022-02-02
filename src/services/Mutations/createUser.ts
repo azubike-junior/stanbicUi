@@ -1,7 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import axios from "axios";
-// import { IRegistration, UserResponse } from "../../interfaces";
 import { UserProp } from "./../../pages/Home/";
 import { getUsers } from "../../services/Mutations/getUsers";
 

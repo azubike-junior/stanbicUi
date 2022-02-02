@@ -156,7 +156,7 @@ export default function Home() {
                 dispatch,
               };
               return (
-                <div className=" block md:flex justify-between ml-14 border-b pb-2 md:w-900">
+                <div className="block md:flex justify-between ml-5 md:ml-14 border-b pb-2 md:w-900">
                   <div className="flex mt-5">
                     <div className="bg-darkBlue w-8 h-8 flex justify-center items-center rounded-full text-white mr-20">
                       {capitalizeString}
@@ -169,14 +169,14 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="block md:flex justify-center items-center mt-2">
-                    <p className="pr-4">{item.date_of_birth}</p>
+                  <div className="flex justify-between md:justify-center items-center mt-2 px-3">
+                    <p className="pr-15 md:pr-4">{item.date_of_birth}</p>
                     <img
                       src={trash}
                       onClick={() => {
                         dispatch(deleteUser(data));
                       }}
-                      className="pl-5 cursor-pointer"
+                      className="md:pl-5 cursor-pointer"
                       alt=""
                     />
                   </div>
