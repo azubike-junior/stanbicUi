@@ -32,7 +32,7 @@
   "scripts": {
     "start:dev": "concurrently \"craco --openssl-legacy-provider start\" \"cd node_modules/cors-anywhere/lib/ && craco start",
     "start": "SET NODE_OPTIONS=--openssl-legacy-provider && craco start",
-    "build": "craco --openssl-legacy-provider build"
+    "build": "craco build"
   },
   "eslintConfig": {
     "extends": [
