@@ -32,10 +32,7 @@
   "scripts": {
     "start:dev": "concurrently \"craco --openssl-legacy-provider start\" \"cd node_modules/cors-anywhere/lib/ && craco start",
     "start": "SET NODE_OPTIONS=--openssl-legacy-provider && craco start",
-    "build": "npm run build:css && react-scripts build",
-    "build:css": "postcss src/styles/tailwind.css -o src/styles/main.css",
-    "watch:css": "postcss src/styles/tailwind.css -o src/styles/main.css",
-    "eject": "react-scripts eject"
+    "build": "craco --openssl-legacy-provider build"
   },
   "eslintConfig": {
     "extends": [
