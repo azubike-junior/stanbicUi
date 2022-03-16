@@ -13,6 +13,7 @@ module.exports = {
     fontFamily: {
       "dm-sans": ["DM Sans", "sans-serif"],
       poppins: ["Poppins", "sans-serif"],
+      ubuntu: ["Ubuntu", "sans-serif"],
     },
     extend: {
       height: {
@@ -38,6 +39,9 @@ module.exports = {
       colors: {
         lightBlue: "rgba(17, 70, 143, 0.04)",
         darkBlue: "#11468F",
+        lightAsh: "#FAFAFA",
+        lightWine: "#DB353A",
+        wine: "radial-gradient(50% 50% at 50% 50%, #B00E13 0%, #6C0003 100%)",
       },
     },
   },
